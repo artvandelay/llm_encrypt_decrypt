@@ -10,9 +10,9 @@ st.title("TS_SMS Encrypt/Decrypt")
 # Description
 st.markdown(
     """
-    This tool allows you to encrypt and decrypt messages using the TS_SMS utility. 
-    The underlying binary was developed by [Fabrice Bellard](https://bellard.org/ts_zip/), 
-    the creator of the original compression tools.
+    A tool designed to compress and decompress messages using a Large Language Model (LLM).
+    Cool way to use the compressive power of LLM instead of using it's generalization or predictive power 
+    
     """
 )
 
