@@ -11,7 +11,7 @@ st.title("TS_SMS Encrypt/Decrypt")
 st.markdown(
     """
     A tool designed to compress and decompress messages using a Large Language Model (LLM).
-    Cool way to use the compressive power of LLM instead of using it's generalization or predictive power 
+    Cool way to use the compressive power of LLM instead of using its generalization or predictive power. Also, doesn't need to be a 'large' model, in fact the LLM binary is just 163MB 
     
     """
 )
