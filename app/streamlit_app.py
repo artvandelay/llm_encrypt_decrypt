@@ -7,6 +7,15 @@ TS_SMS_BINARY = "./ts_sms-2024-12-26/ts_sms"
 # Streamlit app title
 st.title("TS_SMS Encrypt/Decrypt")
 
+# Description
+st.markdown(
+    """
+    This tool allows you to encrypt and decrypt messages using the TS_SMS utility. 
+    The underlying binary was developed by [Fabrice Bellard](https://bellard.org/ts_zip/), 
+    the creator of the original compression tools.
+    """
+)
+
 # Text input from the user
 input_text = st.text_area("Enter text to encrypt/decrypt:")
 
@@ -40,3 +49,12 @@ if st.button("Decrypt"):
             st.error(f"Error: {str(e)}")
     else:
         st.warning("Please enter some text to decrypt.")
+
+# Footer section
+st.markdown(
+    """
+    ---
+    **Credits:**  
+    This application uses the [TS_SMS](https://bellard.org/ts_zip/) tool developed by [Fabrice Bellard](https://bellard.org/).
+    """
+)
